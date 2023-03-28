@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem 9%;
+}
+
+.boton {
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background: #333;
+    color: #fff;
+    padding: .9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+    text-decoration: none;
+    
+}
+.home {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../img/pets-cover.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.home .content{
+    max-width: 50rem;
+}
+
+.home .content h3{
+    font-size: 5.5rem;
+    color: white;
+}
+
+.home .content span{
+    font-size: 3.5rem;
+    color: white;
+    display: block;
+}
+
+.seccion-principal h3 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.seccion-principal .contenedor-nosotros {
+    /* CAMBIANDO EL PADDING A LA SECCION*/
+    padding: 2rem 2rem;
+    gap: 2rem;
+    display: flex;
+    text-align: center;
+    
+}
+.contenedor-nosotros .contenedor {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border: 5px solid #e3e1de;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.seccion-principal i{
+    font-size: 5rem;
+    
+}
+
+.producto img {
+    width: 15rem;
+    height: 15rem;
+}
+
+.productos h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contenedor-producto-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.producto p {
+text-align: center;
+}
+
