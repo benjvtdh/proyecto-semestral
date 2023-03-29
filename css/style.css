@@ -5,6 +5,10 @@
     text-decoration: none;
 }
 
+nav {
+    background-color: #b2f2bb;
+}
+
 section {
     padding: 2rem 9%;
 }
