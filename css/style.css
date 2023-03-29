@@ -99,3 +99,41 @@ section {
 text-align: center;
 }
 
+/* PÁGINA CARRITO*/
+
+.hero {
+    display: flex;
+    align-items: center;
+    min-height: 50vh;
+    background: url(../img/carrito-hero.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.contenedor-hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contenedor-carrito {
+    width: 70rem;
+    height: auto;
+    margin: 1rem 4rem;
+
+}
+
+.hero h1 {
+    color: #fff;
+}
+
+.hero i {
+    color: #fff;
+    font-size: 2rem;
+}
+
+table img {
+    width: 10rem;
+    height: 10  rem;
+}
