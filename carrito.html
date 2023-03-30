@@ -91,6 +91,7 @@
           <tr>
             <th scope="col">Imagen</th>
             <th scope="col">Nombre</th>
+            <th scope="col">Precio</th>
             <th scope="col">Cantidad</th>
             <th scope="col">Eliminar</th>
           </tr>
@@ -98,20 +99,60 @@
         </thead>
         <tbody>
             <tr>
-                <th scope="row"><img src="img/comida-perro.jpg" alt=""></th>
-                <td>Comida perro</td>
-                <td>Cantidad</td>
-                <td>X</td>
+                <th scope="row"><img src="img/whiskas-gato.png" alt=""></th>
+                <td>Whiskas 10kg</td>
+                <td>$20.000</td>
+                <td>1</td>
+                <td><i class="fa-solid fa-delete-left"></i></td>
             </tr>
             <tr>
                 <th scope="row"><img src="img/comida-perro.jpg" alt=""></th>
                 <td>Comida perro</td>
-                <td>Cantidad</td>
-                <td>X</td>
+                <td>$10.000</td>
+                <td>2</td>
+                <td><i class="fa-solid fa-delete-left"></i></td>
             </tr>
           
         </tbody>
       </table>
+      <div class="input-group flex-nowrap">
+        <button class="btn btn-dark" type="button">Aplicar cupón</button>
+        <input type="text" class="form-control" placeholder="Ingrese código de descuento" aria-label="Username" aria-describedby="addon-wrapping">
+      </div>
+    </div>
+
+    <div class="contenedor-comprar">
+      <table class="table tabla-confirmar">
+        <thead class="table-dark">
+          <tr>
+            <th scope="col">Detalles</th>
+            <th scope="col"></th>
+            <th scope="col"></th>
+          </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Subtotal</th>
+                <td>$10.000</td>
+                
+                
+                
+            </tr>
+            <tr>
+              <th scope="row">Total</th>
+              <td>$20.000</td>
+            </tr>
+            
+             
+        </tbody>
+        
+
+      </table>
+      <div class="d-grid gap-2">
+        <button class="btn btn-dark" type="button">Comprar</button>
+      </div>
+
     </div>
     
 </body>

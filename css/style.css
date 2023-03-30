@@ -150,7 +150,8 @@ section {
 .contenedor-carrito {
     width: 70rem;
     height: auto;
-    margin: 1rem 4rem;
+    margin: 1rem 20rem;
+  
 
 }
 
@@ -166,4 +167,19 @@ section {
 table img {
     width: 10rem;
     height: 10  rem;
+}
+
+.btn-dark:hover {
+    background-color: #333;
+}
+
+.contenedor-comprar{
+    width: 30rem;
+    height: 70rem;
+    margin-right: 3rem;
+    margin-left: auto;
+    
+}
+.btn-dark {
+    display: block;
 }
