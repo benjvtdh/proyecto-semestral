@@ -109,9 +109,12 @@ section {
     text-align: center;
 }
 
-.producto span{
-    margin: 0 auto;
+.producto strong {
+    display: block;
+    text-align: center;
 }
+
+
 
 .boton-producto {
     display: block;
