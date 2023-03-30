@@ -60,6 +60,7 @@ section {
     gap: 2rem;
     display: flex;
     text-align: center;
+    justify-content: center;
     
 }
 .contenedor-nosotros .contenedor {
