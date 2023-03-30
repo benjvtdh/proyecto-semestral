@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -69,7 +70,7 @@ section {
     padding-top: 5rem;
     padding-bottom: 5rem;
     border: 5px solid #e3e1de;
-    font-family: 'Montserrat', sans-serif;
+    
 
 
 }
