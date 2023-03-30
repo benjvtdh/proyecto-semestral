@@ -1,3 +1,5 @@
+/* Setear toda la página*/
+
 *{
     margin: 0;
     padding: 0;
@@ -5,9 +7,6 @@
     text-decoration: none;
 }
 
-nav {
-    background-color: #b2f2bb;
-}
 
 section {
     padding: 2rem 9%;
@@ -63,6 +62,8 @@ section {
     
 }
 .contenedor-nosotros .contenedor {
+    box-shadow:  20px 0 20px rgba(0, 0, 0, 0.07);
+    border-radius: 2rem;
     width: 23rem;
     height: auto;
     padding-top: 5rem;
@@ -78,6 +79,12 @@ section {
     
 }
 
+
+.producto {
+    box-shadow:  20px 0 20px rgba(0, 0, 0, 0.07);
+
+    
+}
 .producto img {
     width: 15rem;
     height: 15rem;
@@ -91,12 +98,30 @@ section {
 .contenedor-producto-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
+    row-gap: 3rem;
     align-items: center;
     justify-items: center;
 }
 
-.producto p {
-text-align: center;
+.producto p, .producto a{
+    text-align: center;
+}
+
+.producto span{
+    margin: 0 auto;
+}
+
+.boton-producto {
+    display: block;
+    margin-top: 1rem;
+    background: #333;
+    color: #fff;
+    padding: .9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    text-decoration: none;
+
 }
 
 /* PÁGINA CARRITO*/
