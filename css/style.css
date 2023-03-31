@@ -166,7 +166,7 @@ section {
 
 table img {
     width: 10rem;
-    height: 10  rem;
+    height: 10rem;
 }
 
 .btn-dark:hover {
@@ -183,3 +183,17 @@ table img {
 .btn-dark {
     display: block;
 }
+
+/* PÁGINA Nosotros*/
+
+.hero-nosotros {
+    display: flex;
+    align-items: center;
+    min-height: 50vh;
+    background: url(../img/nosotros-hero.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
