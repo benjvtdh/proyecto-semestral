@@ -196,6 +196,16 @@ table img {
     
 }
 
+.hero-nosotros h3 {
+    color: #fff;
+    font-size: 2rem;
+
+}
+
+.quienes {
+    width: 15rem;
+    height: 15rem;
+}
 
 /* PÁGINA PRODUCTOS*/
 
