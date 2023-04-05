@@ -144,6 +144,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 1rem;
 
 }
 
@@ -429,8 +430,18 @@ table img {
 
 }
 
+/* Pagina mantenedor*/
 
+.seccion-settings {
+    display: flex;
+    align-items: center;
+    min-height: 50vh;
+    background: url(../img/settings-cover.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
+.contenedor-hero {}
 
 
 
