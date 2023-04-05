@@ -92,7 +92,7 @@ section {
     height: 15rem;
 }
 
-.productos h3 {
+.productos-index h3 {
     text-align: center;
     margin-bottom: 2rem;
 }
@@ -193,6 +193,7 @@ table img {
     background: url(../img/nosotros-hero.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+    margin-bottom: 10rem;
     
 }
 
@@ -203,11 +204,28 @@ table img {
 }
 
 .quienes {
-    width: 15rem;
-    height: 15rem;
+    width: 100%;
+    height: auto;
+    margin-bottom: 10rem;
 }
 
-/* PÁGINA PRODUCTOS*/
+.quienes h3 {
+    font-size: 3rem;
+
+}
+
+.quienes img {
+    width: 40rem;
+    height: auto;
+    border-radius: 1.5rem;
+}
+
+.seccion-testimonios {
+    
+    
+}
+
+/* PÁGINA PRODUCTOS */
 
 .productos{
     display: flex;
