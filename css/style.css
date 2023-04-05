@@ -151,7 +151,7 @@ section {
 .contenedor-carrito {
     width: 70rem;
     height: auto;
-    margin: 1rem 20rem;
+    margin: 1rem auto;
   
 
 }
@@ -181,7 +181,7 @@ table img {
     margin-left: auto;
     
 }
-.btn-dark {
+.boton-comprar {
     display: block;
 }
 
@@ -441,7 +441,8 @@ table img {
     background-position: center;
 }
 
-.contenedor-hero {}
-
+.boton-agregar {
+    margin: 1rem auto;
+}
 
 
