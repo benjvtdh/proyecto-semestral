@@ -179,9 +179,10 @@ table i {
 
 .contenedor-comprar{
     width: 30rem;
-    height: 70rem;
+    height: auto;
     margin-right: 3rem;
     margin-left: auto;
+    margin-bottom: 15rem;
     
 }
 .boton-comprar {
