@@ -1,460 +1,430 @@
 /* Setear toda la página*/
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
 }
 
-
 section {
-    padding: 2rem 9%;
+  padding: 2rem 9%;
 }
 
 .boton {
-    display: inline-block;
-    margin-top: 1rem;
-    border-radius: 5rem;
-    background: #333;
-    color: #fff;
-    padding: .9rem 3.5rem;
-    cursor: pointer;
-    font-size: 1.7rem;
-    text-decoration: none;
-    
+  display: inline-block;
+  margin-top: 1rem;
+  border-radius: 5rem;
+  background: #333;
+  color: #fff;
+  padding: 0.9rem 3.5rem;
+  cursor: pointer;
+  font-size: 1.7rem;
+  text-decoration: none;
 }
 .home {
-    display: flex;
-    align-items: center;
-    min-height: 100vh;
-    background: url(../img/pets-cover.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background: url(../img/pets-cover.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.home .content{
-    max-width: 50rem;
+.home .content {
+  max-width: 50rem;
 }
 
-.home .content h3{
-    font-size: 5.5rem;
-    color: white;
+.home .content h3 {
+  font-size: 5.5rem;
+  color: white;
 }
 
-.home .content span{
-    font-size: 3.5rem;
-    color: white;
-    display: block;
+.home .content span {
+  font-size: 3.5rem;
+  color: white;
+  display: block;
 }
 
 .seccion-principal h3 {
-    font-size: 3rem;
-    text-align: center;
+  font-size: 3rem;
+  text-align: center;
 }
 
 .seccion-principal .contenedor-nosotros {
-    /* CAMBIANDO EL PADDING A LA SECCION*/
-    padding: 2rem 2rem;
-    gap: 2rem;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    
+  /* CAMBIANDO EL PADDING A LA SECCION*/
+  padding: 2rem 2rem;
+  gap: 2rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
 }
 .contenedor-nosotros .contenedor {
-    box-shadow:  20px 0 20px rgba(0, 0, 0, 0.07);
-    border-radius: 2rem;
-    width: 23rem;
-    height: auto;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    border: 5px solid #e3e1de;
-    
-
-
+  box-shadow: 20px 0 20px rgba(0, 0, 0, 0.07);
+  border-radius: 2rem;
+  width: 23rem;
+  height: auto;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  border: 5px solid #e3e1de;
 }
 
-.seccion-principal i{
-    font-size: 5rem;
-    
+.seccion-principal i {
+  font-size: 5rem;
 }
-
 
 .producto {
-    box-shadow:  20px 0 20px rgba(0, 0, 0, 0.07);
-
-    
+  box-shadow: 20px 0 20px rgba(0, 0, 0, 0.07);
 }
 .producto img {
-    width: 15rem;
-    height: 15rem;
+  width: 15rem;
+  height: 15rem;
 }
 
 .productos-index h3 {
-    text-align: center;
-    margin-bottom: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
 }
 
 .contenedor-producto-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 1rem;
-    row-gap: 3rem;
-    align-items: center;
-    justify-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1rem;
+  row-gap: 3rem;
+  align-items: center;
+  justify-items: center;
 }
 
-.producto p, .producto a{
-    text-align: center;
+.producto p,
+.producto a {
+  text-align: center;
 }
 
 .producto strong {
-    display: block;
-    text-align: center;
+  display: block;
+  text-align: center;
 }
 
-
-
 .boton-producto {
-    display: block;
-    margin-top: 1rem;
-    background: #333;
-    color: #fff;
-    padding: .9rem 3.5rem;
-    cursor: pointer;
-    font-size: 1rem;
-    text-decoration: none;
-
+  display: block;
+  margin-top: 1rem;
+  background: #333;
+  color: #fff;
+  padding: 0.9rem 3.5rem;
+  cursor: pointer;
+  font-size: 1rem;
+  text-decoration: none;
 }
 
 /* PÁGINA CARRITO*/
 
 .hero {
-    display: flex;
-    align-items: center;
-    min-height: 50vh;
-    background: url(../img/carrito-hero.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
+  display: flex;
+  align-items: center;
+  min-height: 50vh;
+  background: url(../img/carrito-hero.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .contenedor-hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
 }
 
 .contenedor-carrito {
-    width: 70rem;
-    height: auto;
-    margin: 1rem auto;
-  
-
+  width: 70rem;
+  height: auto;
+  margin: 1rem auto;
 }
 
 .hero h1 {
-    color: #fff;
+  color: #fff;
 }
 
 .hero i {
-    color: #fff;
-    font-size: 2rem;
+  color: #fff;
+  font-size: 2rem;
 }
 
 table img {
-    width: 10rem;
-    height: 10rem;
+  width: 10rem;
+  height: 10rem;
 }
 table i {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .btn-dark:hover {
-    background-color: #333;
+  background-color: #333;
 }
 
-.contenedor-comprar{
-    width: 30rem;
-    height: auto;
-    margin-right: 3rem;
-    margin-left: auto;
-    margin-bottom: 15rem;
-    
+.contenedor-comprar {
+  width: 30rem;
+  height: auto;
+  margin-right: 3rem;
+  margin-left: auto;
+  margin-bottom: 15rem;
 }
 .boton-comprar {
-    display: block;
+  display: block;
 }
 
 /* PÁGINA Nosotros*/
 
 .hero-nosotros {
-    display: flex;
-    align-items: center;
-    min-height: 50vh;
-    background: url(../img/nosotros-hero.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-bottom: 10rem;
-    
+  background: url(../img/nosotros-hero.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10rem;
 }
 
 .hero-nosotros h3 {
-    color: #fff;
-    font-size: 2rem;
-
+  color: #fff;
+  font-size: 2rem;
 }
 
 .quienes {
-    width: 100%;
-    height: auto;
-    margin-bottom: 10rem;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10rem;
 }
 
 .quienes h3 {
-    font-size: 3rem;
-
+  font-size: 3rem;
 }
 
 .quienes img {
-    width: 40rem;
-    height: auto;
-    border-radius: 1.5rem;
+  width: 40rem;
+  height: auto;
+  border-radius: 1.5rem;
 }
 
 .seccion-testimonios {
-    
-    
 }
 
 /* PÁGINA PRODUCTOS */
 
-.productos{
-    display: flex;
-    align-items: center;
-    min-height: 50vh;
-    background: url(../img/fotoperroygato.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
+.productos {
+  display: flex;
+  align-items: center;
+  min-height: 50vh;
+  background: url(../img/fotoperroygato.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
-.contenido{
-    max-width: 2100px;
-    width: 100%;
-    margin: 40px auto;
-    display: flex;
+.contenido {
+  max-width: 2100px;
+  width: 100%;
+  margin: 40px auto;
+  display: flex;
 }
 
-.mostrador{
-    width: 100%;
-    transition: .5% ease;
+.mostrador {
+  width: 100%;
+  transition: 0.5% ease;
 }
 
-.mostrador .fila{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 40px;
+.mostrador .fila {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
 }
 
-.mostrador .fila .item{
-    max-width: 210px;
-    padding: 30px;
-    height: 250px;
-    text-align: center;
-    margin: 0 10px;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: .3s;
+.mostrador .fila .item {
+  max-width: 210px;
+  padding: 30px;
+  height: 250px;
+  text-align: center;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
 }
 
-.mostrador .fila .item:hover{
-    background-color: #e6e6e6;
+.mostrador .fila .item:hover {
+  background-color: #e6e6e6;
 }
 
-.mostrador .fila .item img{
-    width: 100%;
-    margin: 30px 0;
+.mostrador .fila .item img {
+  width: 100%;
+  margin: 30px 0;
 }
 
-.mostrador .fila .item .descripcion{
-    color: #707070;
-    font-weight: bold;
+.mostrador .fila .item .descripcion {
+  color: #707070;
+  font-weight: bold;
 }
 
-.mostrador .fila .item .precio{
-    color: #f85151;
-    font-weight: bold;
-    font-size: 20px;
+.mostrador .fila .item .precio {
+  color: #f85151;
+  font-weight: bold;
+  font-size: 20px;
 }
 
-.seleccion{
-    transition: .5s ease;
-    opacity: 0;
-    width: 0%;
-    border: 1px solid #ccc;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    overflow: hidden;
-
+.seleccion {
+  transition: 0.5s ease;
+  opacity: 0;
+  width: 0%;
+  border: 1px solid #ccc;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
 }
 
-.cerrar{
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    cursor: pointer;
+.cerrar {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
 }
 
-.info{
-    padding: 10px;
+.info {
+  padding: 10px;
 }
 
-.info img{
-    display: block;
-    margin: 30px;
-    width: 80%;
+.info img {
+  display: block;
+  margin: 30px;
+  width: 80%;
 }
 
-.info h2{
-    color: #707070;
-    margin-bottom: 10px;
+.info h2 {
+  color: #707070;
+  margin-bottom: 10px;
 }
 
-.info p{
-    font-size: 14px;
-    color: #707070;
-    margin-bottom: 10px;
+.info p {
+  font-size: 14px;
+  color: #707070;
+  margin-bottom: 10px;
 }
 
-.info .precio{
-    font-size: 30px;
-    font-weight: bold;
-    color: #f85151;
-    margin-bottom: 10px;
-    display: block;
+.info .precio {
+  font-size: 30px;
+  font-weight: bold;
+  color: #f85151;
+  margin-bottom: 10px;
+  display: block;
 }
 
-.info .fila{
-    display: flex;
-    align-items: flex-end;
+.info .fila {
+  display: flex;
+  align-items: flex-end;
 }
 
-.info .fila label{
-    display: block;
-    margin-bottom: 10px;
+.info .fila label {
+  display: block;
+  margin-bottom: 10px;
 }
 
-.info .fila select{
-    width: 100px;
-    font-size: 18px;
-    padding: 6px;
-    margin-right: 30px;
+.info .fila select {
+  width: 100px;
+  font-size: 18px;
+  padding: 6px;
+  margin-right: 30px;
 }
 
-.info .fila button{
-    height: 40px;
-    border: none;
-    padding: 0 10px;
-    color: #fff;
-    background-color: #f85151;
+.info .fila button {
+  height: 40px;
+  border: none;
+  padding: 0 10px;
+  color: #fff;
+  background-color: #f85151;
 }
 
 /* PÁGINA LOGIN */
 
-#login{
-    min-height: 100vh;
-    background: url(../img/dog-swimming.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100%;
+#login {
+  min-height: 100vh;
+  background: url(../img/dog-swimming.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
 }
 
-.form-login{
-    width: 400px;
-    height: 340px;
-    background: #4e4e4e;
-    margin: auto;
-    margin-top: 180px;
-    box-shadow: 7px 13px 37px #000;
-    padding: 20px 30px;
-    border-top: 4px solid purple;
-    color: white;
-    margin-bottom: 10rem;
+.form-login {
+  width: 400px;
+  height: 340px;
+  background: #4e4e4e;
+  margin: auto;
+  margin-top: 180px;
+  box-shadow: 7px 13px 37px #000;
+  padding: 20px 30px;
+  border-top: 4px solid purple;
+  color: white;
+  margin-bottom: 10rem;
 }
 
-.form-login h5{
-    margin: 0;
-    text-align: center;
-    height: 40px;
-    margin-bottom: 30px;
-    border-bottom: 1px solid;
-    font-size: 20px;
+.form-login h5 {
+  margin: 0;
+  text-align: center;
+  height: 40px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid;
+  font-size: 20px;
 }
 
-.controls{
-    width: 100%;
-    border: 1px solid purple;
-    margin-bottom: 15px;
-    padding: 11px 10px;
-    background: #312d2d;
-    font-size: 14px;
-    font-weight: bold;
-    color: #707070;
+.controls {
+  width: 100%;
+  border: 1px solid purple;
+  margin-bottom: 15px;
+  padding: 11px 10px;
+  background: #312d2d;
+  font-size: 14px;
+  font-weight: bold;
+  color: #707070;
 }
 
-.buttons{
-    width: 100%;
-    height: 40px;
-    background: purple;
-    border: none;
-    color: white;
-    margin-bottom: 16px;
+.buttons {
+  width: 100%;
+  height: 40px;
+  background: purple;
+  border: none;
+  color: white;
+  margin-bottom: 16px;
 }
 
-.form-login p{
-    height: 40px;
-    text-align: center;
-    border-bottom: 1px solid;
+.form-login p {
+  height: 40px;
+  text-align: center;
+  border-bottom: 1px solid;
 }
 
-.form-login a{
-    color: white;
-    text-decoration: none;
-    font-size: 14px;
+.form-login a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
 }
 
-.form-login a:hover{
-    text-decoration: underline;
-
+.form-login a:hover {
+  text-decoration: underline;
 }
 
 /* Pagina mantenedor*/
 
 .seccion-settings {
-    display: flex;
-    align-items: center;
-    min-height: 50vh;
-    background: url(../img/settings-cover.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
+  display: flex;
+  align-items: center;
+  min-height: 50vh;
+  background: url(../img/settings-cover.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 .buscar {
-    display: flex;
-    align-items: flex-start;
-    gap: 0.5rem;
-
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
 }
 
 .buscar i {
-    font-size: 2rem;
+  font-size: 2rem;
 }
-
-
-
