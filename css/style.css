@@ -7,6 +7,10 @@
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
 }
+small {
+  color: red;
+  font-weight: bolder;
+}
 
 section {
   padding: 2rem 9%;
@@ -201,9 +205,6 @@ table i {
   width: 40rem;
   height: auto;
   border-radius: 1.5rem;
-}
-
-.seccion-testimonios {
 }
 
 /* PÁGINA PRODUCTOS */
