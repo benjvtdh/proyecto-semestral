@@ -32,17 +32,15 @@ function crearStorage() {
       },
     ];
 
-    console.log(array);
     const obj = JSON.stringify(array);
-    console.log(obj);
     localStorage.setItem("myStorage", obj);
+    console.log(array);
     console.log("Storage creado");
   }
 }
 
 function eliminarStorage() {
   localStorage.removeItem("myStorage");
-  console.log("Storage eliminado");
 }
 
 function cargarTabla() {
@@ -81,7 +79,6 @@ function cargarTabla() {
     eliminarTd.appendChild(iconEliminar);
 
     // AGREGAR TODOS LOS ELEMENTOS A TR
-    console.log(nuevoTr);
 
     nuevoTr.appendChild(nuevoTh);
     nuevoTr.appendChild(idTd);
@@ -96,10 +93,24 @@ function cargarTabla() {
   }
 }
 
-function eliminarProducto() {
-  let valor = document.getElementById("txt").value;
+function eliminarProducto(idProducto, event) {
+  event.target.parentNode.parentNode.remove();
+  let storage = JSON.parse(localStorage.getItem("myStorage"));
+  let filtro = storage.filter((e) => e.id != idProducto);
+  console.log(filtro);
+  localStorage.setItem("myStorage", JSON.stringify(filtro));
 }
 
 agregarOnloadEvent(eliminarStorage());
 agregarOnloadEvent(crearStorage());
 agregarOnloadEvent(cargarTabla());
+
+const tablaColumnas = document.getElementsByTagName("tr");
+for (let curr = 1; curr < tablaColumnas.length; curr++) {
+  const iconoEliminar = tablaColumnas[curr].lastElementChild.firstElementChild;
+  const idProducto =
+    tablaColumnas[curr].firstElementChild.nextElementSibling.innerText;
+  iconoEliminar.addEventListener("click", (event) => {
+    eliminarProducto(idProducto, event);
+  });
+}
