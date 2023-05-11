@@ -110,6 +110,16 @@ function agregarProducto() {
   const precioProducto = document.getElementById("precioProducto").value;
   const fotoProductoUrl = document.getElementById("fotoProducto").value;
 
+  let array = {
+    id: Number(idProducto),
+    nombre: nombreProducto,
+    precio: precioProducto,
+    foto: fotoProductoUrl,
+  };
+  let storage = JSON.parse(localStorage.getItem("myStorage"));
+  storage.push(array);
+  localStorage.setItem("myStorage", storage);
+
   crearHtml(idProducto, nombreProducto, precioProducto, fotoProductoUrl);
 }
 
