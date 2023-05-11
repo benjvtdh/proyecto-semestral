@@ -169,6 +169,16 @@
             <div class="modal-body">
               <form id="agregarProductoForm">
                 <div class="mb-3">
+                  <label for="idProducto" class="col-form-label">ID:</label>
+                  <input
+                    onblur="validarForm()"
+                    type="text"
+                    class="form-control"
+                    id="idProducto"
+                  />
+                  <small id="valId">Debe ingresar el id del producto</small>
+                </div>
+                <div class="mb-3">
                   <label for="nombreProducto" class="col-form-label"
                     >Nombre:</label
                   >
@@ -198,14 +208,16 @@
                 </div>
 
                 <div class="mb-3">
-                  <label class="input-text" for="fotoProducto">Imagen: </label>
+                  <label class="input-text" for="fotoProducto"
+                    >Url Imagen:
+                  </label>
                   <input
                     onblur="validarForm()"
-                    type="file"
+                    type="text"
                     class="form-control"
                     id="fotoProducto"
                   />
-                  <small id="valFoto">Debe ingresar la foto del producto</small>
+                  <small id="valFoto">Debe ingresar la url del producto</small>
                 </div>
               </form>
             </div>
@@ -218,7 +230,11 @@
               >
                 Cerrar
               </button>
-              <button type="button" class="btn btn-primary btn-dark">
+              <button
+                onclick="agregarProducto()"
+                type="button"
+                class="btn btn-primary btn-dark"
+              >
                 Agregar producto
               </button>
             </div>

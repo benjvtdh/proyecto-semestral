@@ -1,7 +1,9 @@
+document.getElementById("valId").style.display = "none";
 document.getElementById("valNombre").style.display = "none";
 document.getElementById("valPrecio").style.display = "none";
 document.getElementById("valFoto").style.display = "none";
 
+let idProducto = document.getElementById("idProducto");
 let nombreProducto = document.getElementById("nombreProducto");
 let precioProducto = document.getElementById("precioProducto");
 let fotoProducto = document.getElementById("fotoProducto");
@@ -29,9 +31,19 @@ function limpiarForm() {
 }
 
 function validarForm() {
+  let txtId = idProducto.value;
   let txtNombre = nombreProducto.value;
   let txtPrecio = precioProducto.value;
   let fileFoto = fotoProducto.value;
+
+  if (txtId.length == 0) {
+    document.getElementById("valId").style.display = "inline";
+    document.getElementById("idProducto").classList.add("is-invalid");
+  } else {
+    document.getElementById("idProducto").classList.remove("is-invalid");
+    document.getElementById("idProducto").classList.add("is-valid");
+    document.getElementById("valId").style.display = "none";
+  }
 
   if (txtNombre.length == 0) {
     document.getElementById("valNombre").style.display = "inline";
