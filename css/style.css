@@ -413,9 +413,10 @@ table i {
 
 .seccion-settings {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   min-height: 50vh;
-  background: url(../img/settings-cover.jpg) no-repeat;
+  background: url(../img/fondo-azul-mantenedor.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -428,4 +429,20 @@ table i {
 
 .buscar i {
   font-size: 2rem;
+}
+
+.clock {
+  position: absolute;
+  top: 50%;
+  left: 89%;
+  transform: translateX(-50%) translateY(-50%);
+  color: white;
+  font-size: 60px;
+  font-family: Orbitron;
+  letter-spacing: 7px;
+}
+
+.tiempo {
+  display: flex;
+  align-items: center;
 }

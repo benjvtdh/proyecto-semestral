@@ -3,6 +3,8 @@ document.getElementById("valNombre").style.display = "none";
 document.getElementById("valPrecio").style.display = "none";
 document.getElementById("valFoto").style.display = "none";
 
+console.log();
+
 let idProducto = document.getElementById("idProducto");
 let nombreProducto = document.getElementById("nombreProducto");
 let precioProducto = document.getElementById("precioProducto");
