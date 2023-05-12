@@ -7,32 +7,43 @@ let precioSeleccionado = document.getElementById("precio");
 
 //Funcion la cual carga el item seleccionado
 function cargar(item){
-    mostrador.style.width = "60%";
+    quitarBordes();
+    mostrador.style.width = "80%";
     seleccion.style.width = "40%";
-    mostrador.style.opacity = "1";
+    seleccion.style.opacity = "1";
     item.style.border = "2px solid red";
 
+    imgSeleccionada.src = item.getElementsByTagName("img")[0].src;
+    modeloSeleccionado.innerHTML =  item.getElementsByTagName("p")[0].innerHTML;
+    descripSeleccionada.innerHTML = "Descripción del modelo ";
+    precioSeleccionado.innerHTML =  item.getElementsByTagName("span")[0].innerHTML;
+}
 
-    imgSeleccionada.scr = item.getElementById("img")[0].src;
 
-    modeloSeleccionado.innerHTML = item.getElementByTagName("p")[0].innerHTML;
-
-    descripSeleccionada.innerHTML = "Descripción del modelo";
-
-    precioSeleccionado.innerHTML = item.getElementByTagName("span")[0].innerHTML;
-
+function cerrar(){
+    mostrador.style.width = "100%";
+    seleccion.style.width = "0%";
+    seleccion.style.opacity = "0";
+    quitarBordes();
 }
 
 function quitarBordes(){
     var items = document.getElementsByClassName("item");
-    for(i=0;i < items.length; i++){
+    for(i=0;i <items.length; i++){
         items[i].style.border = "none";
     }
 }
 
-function cerrar(){
-    mostrador.style.width = "100%";
-    seleccion.style.width = "0";
-    mostrador.style.opacity = "0";
-    quitarBordes();
+//-------------------------------------------------
+
+function enableDarkMode() {
+    let main_body = document.body;
+    main_body.classList.toggle("dark-mode");
+
+    if (document.getElementById('checkitem').checked) {
+        console.log("CHECKEADO");
+    }else{
+        console.log("NO CHECKEADO");
+    }
+        
 }

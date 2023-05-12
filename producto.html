@@ -70,6 +70,8 @@
               >
             </li>
           </ul>
+          <input id="checkitem" type="checkbox" onclick="enableDarkMode()">
+          
           <form class="d-flex">
             <button class="btn btn-outline-success" type="submit">
               Registrarse
@@ -90,8 +92,8 @@
         <!-- CONTENIDO DEL MOSTRADOR -->
     <section class="contenido">
         <div class="mostrador" id="mostrador">
-            <div class="fila" onclick="cargar(this)">
-                <div class="item">
+            <div class="fila">
+                <div class="item" onclick="cargar(this)">
                     <div class="contenedor-foto">
                         <img src="img/whiskas-gato.png" alt="">
                         <p class="descripcion">COMIDA GATO</p>
@@ -137,35 +139,35 @@
         </div>
 
         
-        <!-- CONTENEDOR DEL ITEM SELECCIONADO -->
-        <div class="seleccion" id="seleccion">
-            <div class="cerrar" onclick="cerrar()">
-                &#x2715
+	<!-- CONTENEDOR DEL ITEM SELECCIONADO -->
+
+
+  <div class="seleccion" id="seleccion">
+    <div class="cerrar" onclick="cerrar()">
+        &#x2715
+    </div>
+    <div class="info">
+        <img src="img/whiskas-gato.png" alt="" id="img">
+        <h2 id="modelo">Comida Gato</h2>
+        <p id="descripcion">Descripción</p>
+
+        <span class="precio" id="precio">$ 5000</span>
+
+        <div class="fila">
+            <div class="size">
+                <label for="">Cantidad</label>
+                <select name="" id="">
+                    <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                </select>
             </div>
-            <div class="info">
-                <img src="img/whiskas-gato.png" alt="img">
-                <h2 id="modelo">COMIDA GATO</h2>
-                <p id="descripcion">Descripción comida gato</p>
-
-                <span class="precio" id="precio">$5000</span>
-
-                <div class="fila">
-                    <div class="cantidad">
-                        <label for="">Cantidad: </label>
-                        <select name="" id="">
-                            <option value="">1</option>
-                            <option value="">2</option>
-                            <option value="">3</option>
-                            <option value="">4</option>
-                            <option value="">5</option>
-                        </select>
-                    </div>
-                    <button>AGREGAR AL CARRITO</button>
-                </div>
-            </div>
-
+            <button>AGREGAR AL CARRITO</button>
         </div>
-    </section>
+    </div>
+</div>
+</section>
 
 
             <!-- FOOTER -->
@@ -310,7 +312,7 @@
 </footer>
     
 
-<!--<script src="script.js"></script>  -->
+  <script src="script.js"></script> 
 
     <script
     src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
